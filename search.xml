@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[java语言的简单认识]]></title>
+    <url>%2F2019%2F06%2F13%2Fhello-world-1%2F</url>
+    <content type="text"><![CDATA[1. Java语言的简单认识(1) Java有三个版本： a. JAVA SE （以前称J2SE）：Standard Environment 标准版本； b. JAVA EE （以前称J2EE）：Enterprise Environment 企业版； c. JAVA ME （以前称J2ME）：Eicro Environment 微型版; (2) Java的安装目录 在前一讲中，提到安装目录中有两个文件夹，分别是jdk1.7.0_45和jre7。在“jdk1.7.0_45”文件夹的bin子文件夹下，有“java.exe”和“javac.exe”两个文件；但在“jre7”的bin文件夹下，只有前两个文件中的“java.exe”。 “javac.exe”是Java开发和编译的执行程序，作用是将.java代码文件编译成.class文件。 “java.exe”是Java运行的执行程序，作用是运行由”javac.exe”编译成的*.class文件。 由此可见，JDK包含JRE，所以必须要有JDK才能开发Java程序。 注： Java是跨平台（Java语言是可以在多种操作系统上运行的，但*.exe文件是不能在Linux系统中运行的；因为操作系统内核是不同的）的语言，真正执行的不是二进制码，而是字节码(.class文件)。那为什么Java程序可以跨平台呢？因为Java是运行在JVM(Java 虚拟机，由C语言编写的)上，JVM将字节码进一步编译成能运行的机器码。不同操作系统是有不同的JVM的，所以在下载JDK的时候，是需要选择操作系统。 (3) Java程序的编辑环境 a. 记事本，将.txt改成.Java即可； b. editplus和nodepad++； c. 借助IDE，如Eclipse，Myeclipse； 2. Hello World实例 实例代码如下，注意保存时，名称写为“Test.java”。如果是用记事本写的话，注意“txt”扩展名是否被删除。 1234567class Test &#123; public static void main(String[] args) &#123; System.out.println("Hello World!"); &#125; &#125;]]></content>
+      <categories>
+        <category>java语言</category>
+      </categories>
+      <tags>
+        <tag>java基础</tag>
+        <tag>简介</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F06%2F13%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
