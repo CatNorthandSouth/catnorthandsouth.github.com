@@ -81,13 +81,14 @@
 
 <meta name="description" content="小白技术成长之路">
 <meta property="og:type" content="website">
-<meta property="og:title" content="猫南北的博客">
-<meta property="og:url" content="http://yoursite.com/tags/helloworld/index.html">
+<meta property="og:title" content="book">
+<meta property="og:url" content="http://yoursite.com/book/index-1.html">
 <meta property="og:site_name" content="猫南北的博客">
 <meta property="og:description" content="小白技术成长之路">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-06-14T03:02:52.554Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="猫南北的博客">
+<meta name="twitter:title" content="book">
 <meta name="twitter:description" content="小白技术成长之路">
 
 
@@ -118,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/helloworld/">
+  <link rel="canonical" href="http://yoursite.com/book/index-1.html">
 
 
 
 
 
-  <title>标签: helloworld! | 猫南北的博客</title>
+  <title>book | 猫南北的博客</title>
   
 
 
@@ -143,7 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,52 +248,36 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>helloworld!<small>标签</small>
-        </h1>
-      </div>
+	<h1 class="post-title" itemprop="name headline">book</h1>
+
+
+
+</header>
 
       
+      
+      
+      <div class="post-body">
         
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/06/13/hello-world-1/" itemprop="url">
-              
-                <span itemprop="name">hello world</span>
-              
-            </a>
+          
         
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-13T12:21:41+08:00" content="2019-06-13">
-          06-13
-        </time>
       </div>
-
-    </header>
-  </article>
-
-
+      
+      
       
     </div>
-
+    
+    
+    
   </div>
-  
-  
-  
-
-  
 
 
           </div>
@@ -300,6 +285,13 @@
 
 
           
+
+  
+	<div id="gitalk-container">
+	</div>
+  
+
+
 
         </div>
         
@@ -343,13 +335,22 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -529,6 +530,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -569,6 +574,22 @@
 
 
 
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: '979d86012371dbcde295',
+          clientSecret: '54ec853430e99971fb3cd7270efe4ff319473732',
+          repo: 'comment.github.io',
+          owner: 'CatNorthandSouth',
+          admin: ['CatNorthandSouth'],
+          id: md5(window.location.pathname),
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+       </script>
 
   
 
@@ -698,6 +719,7 @@
 
   
 
-
+  <script type="text/javascript" src="/lib/zclip/clipboard.min.js"></script>	
+<script type="text/javascript" src="/js/src/custom.js"></script>
 </body>
 </html>
