@@ -281,7 +281,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/06/13/hello-world-1/" itemprop="url">hello world</a></h1>
+                <a class="post-title-link" href="/2019/06/13/hello-world-1/" itemprop="url">java语言的简单认识</a></h1>
         
 
         <div class="post-meta">
@@ -304,6 +304,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java语言/" itemprop="url" rel="index">
+                    <span itemprop="name">java语言</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -311,7 +333,7 @@
 
           
           
-             <span id="/2019/06/13/hello-world-1/" class="leancloud_visitors" data-flag-title="hello world">
+             <span id="/2019/06/13/hello-world-1/" class="leancloud_visitors" data-flag-title="java语言的简单认识">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -336,7 +358,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  446
                 </span>
               
 
@@ -375,7 +397,20 @@
       
         
           
-            
+            <h2 id="1-Java语言的简单认识"><a href="#1-Java语言的简单认识" class="headerlink" title="1. Java语言的简单认识"></a>1. Java语言的简单认识</h2><h3 id="1-Java有三个版本："><a href="#1-Java有三个版本：" class="headerlink" title="(1) Java有三个版本："></a>(1) Java有三个版本：</h3><p>　　a. JAVA SE （以前称J2SE）：Standard Environment 标准版本；</p>
+<p>　　b. JAVA EE （以前称J2EE）：Enterprise Environment 企业版；</p>
+<p>　　c. JAVA ME （以前称J2ME）：Eicro Environment 微型版;</p>
+<h3 id="2-Java的安装目录"><a href="#2-Java的安装目录" class="headerlink" title="(2) Java的安装目录"></a>(2) Java的安装目录</h3><p>　　在前一讲中，提到安装目录中有两个文件夹，分别是jdk1.7.0_45和jre7。在“jdk1.7.0_45”文件夹的bin子文件夹下，有“java.exe”和“javac.exe”两个文件；但在“jre7”的bin文件夹下，只有前两个文件中的“java.exe”。</p>
+<p>　　“javac.exe”是Java开发和编译的执行程序，作用是将<em>.java代码文件编译成</em>.class文件。</p>
+<p>　　“java.exe”是Java运行的执行程序，作用是运行由”javac.exe”编译成的*.class文件。</p>
+<p>　　由此可见，JDK包含JRE，所以必须要有JDK才能开发Java程序。</p>
+<p>注：</p>
+<p>　　Java是跨平台（Java语言是可以在多种操作系统上运行的，但*.exe文件是不能在Linux系统中运行的；因为操作系统内核是不同的）的语言，真正执行的不是二进制码，而是字节码(.class文件)。那为什么Java程序可以跨平台呢？因为Java是运行在JVM(Java 虚拟机，由C语言编写的)上，JVM将字节码进一步编译成能运行的机器码。不同操作系统是有不同的JVM的，所以在下载JDK的时候，是需要选择操作系统。</p>
+<h3 id="3-Java程序的编辑环境"><a href="#3-Java程序的编辑环境" class="headerlink" title="(3) Java程序的编辑环境"></a>(3) Java程序的编辑环境</h3><p>　　a. 记事本，将<em>.txt改成</em>.Java即可；</p>
+<p>　　b. editplus和nodepad++；</p>
+<p>　　c. 借助IDE，如Eclipse，Myeclipse；</p>
+<h2 id="2-Hello-World实例"><a href="#2-Hello-World实例" class="headerlink" title="2. Hello World实例"></a>2. Hello World实例</h2><p>　　实例代码如下，注意保存时，名称写为“Test.java”。如果是用记事本写的话，注意“txt”扩展名是否被删除。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">class Test</span><br><span class="line"> &#123;</span><br><span class="line">     public static void main(String[] args)</span><br><span class="line">     &#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello World!"</span>); </span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
           
         
       
@@ -637,13 +672,22 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
